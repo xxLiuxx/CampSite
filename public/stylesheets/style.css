@@ -1,0 +1,74 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    position:relative;
+    height:100%;
+}
+
+a {
+    color: #00B7FF;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+}
+
+.card {
+    padding: 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+.caption-full {
+    padding: 9px;
+}
+
+#delete_camp, #delete_comment {
+    display: inline;
+}
+
+.new-form {
+    display: contents;
+}
+
+.new-form h1 {
+    text-align: center;
+}
+
+.new-post {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.camp-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    margin: auto;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #e3e3e3;
+    color: #333333;
+    font-size: 12px;
+    font-family: "open sans",sans-serif;
+    text-align: center;
+    overflow: auto;
+}
